@@ -1,0 +1,8 @@
+metric,value
+Raw records,2520
+Clean records loaded,2447
+Records removed,73
+Duplicate transaction rows,20
+Missing customer IDs,18
+Non-positive amounts,22
+Invalid channels,15

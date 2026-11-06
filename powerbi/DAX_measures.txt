@@ -1,0 +1,13 @@
+-- Create these measures in Power BI after loading transactions_clean.csv.
+Total Transactions = COUNTROWS(Transactions)
+Total Transaction Value = SUM(Transactions[amount])
+Successful Transactions = CALCULATE([Total Transactions], Transactions[status] = "SUCCESS")
+Failed Transactions = CALCULATE([Total Transactions], Transactions[status] = "FAILED")
+Success Rate % = DIVIDE([Successful Transactions], [Total Transactions], 0) * 100
+Average Transaction Value = DIVIDE([Total Transaction Value], [Total Transactions], 0)
+
+-- Data Quality measures (load data_quality_summary.csv as QualitySummary)
+Raw Records = CALCULATE(MAX(QualitySummary[value]), QualitySummary[metric] = "Raw records")
+Clean Records = CALCULATE(MAX(QualitySummary[value]), QualitySummary[metric] = "Clean records loaded")
+Records Removed = [Raw Records] - [Clean Records]
+Data Retention % = DIVIDE([Clean Records], [Raw Records], 0) * 100

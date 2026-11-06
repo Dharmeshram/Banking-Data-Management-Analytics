@@ -1,0 +1,76 @@
+transaction_id,issue_type,issue_description
+T0000171,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0002226,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0002451,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000998,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000241,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000433,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000475,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000922,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000064,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0002219,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0001969,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0001043,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000563,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000122,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000491,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000834,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000691,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0001225,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0002358,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0002236,DUPLICATE_TRANSACTION,Repeated transaction ID
+T0000025,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0000335,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0000402,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0000464,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0000770,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001065,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001086,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001214,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001342,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001432,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001491,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001594,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001615,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001715,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001785,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0001830,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0002073,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0002197,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0002312,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0002323,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0002464,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0002486,NON_POSITIVE_AMOUNT,Amount must be greater than zero
+T0000258,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000598,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000668,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000710,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000784,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000848,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000916,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000919,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001044,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001176,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001218,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001337,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001483,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001507,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001591,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001595,MISSING_CUSTOMER_ID,Customer reference is missing
+T0001833,MISSING_CUSTOMER_ID,Customer reference is missing
+T0002389,MISSING_CUSTOMER_ID,Customer reference is missing
+T0000009,INVALID_CHANNEL,Channel is outside the approved list
+T0000025,INVALID_CHANNEL,Channel is outside the approved list
+T0000444,INVALID_CHANNEL,Channel is outside the approved list
+T0000450,INVALID_CHANNEL,Channel is outside the approved list
+T0000531,INVALID_CHANNEL,Channel is outside the approved list
+T0000687,INVALID_CHANNEL,Channel is outside the approved list
+T0000848,INVALID_CHANNEL,Channel is outside the approved list
+T0000878,INVALID_CHANNEL,Channel is outside the approved list
+T0001427,INVALID_CHANNEL,Channel is outside the approved list
+T0001494,INVALID_CHANNEL,Channel is outside the approved list
+T0001699,INVALID_CHANNEL,Channel is outside the approved list
+T0001950,INVALID_CHANNEL,Channel is outside the approved list
+T0002330,INVALID_CHANNEL,Channel is outside the approved list
+T0002370,INVALID_CHANNEL,Channel is outside the approved list
+T0002471,INVALID_CHANNEL,Channel is outside the approved list
